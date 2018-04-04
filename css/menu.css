@@ -1,0 +1,9 @@
+#mainmenu ul { list-style: none; margin: 0; padding: 0; position: relative; height: 30px; }
+#mainmenu ul li { display: inline-block; height: 28px; float: left; overflow: visible; }
+#mainmenu ul li:hover > ul { display: block; }
+#mainmenu ul li a { float: none; display: inline-block; white-space: nowrap; }
+#mainmenu ul li ul { display: none; position: absolute; top: 100%; background:white url(bg.gif) repeat-x left top; color: #ffffff; height: auto;}
+#mainmenu ul li ul li {clear: left; background:white url(bg.gif) repeat-x left top; color: #ffffff; height: auto; width: 320px;}
+#mainmenu ul li ul li a { color: #ffffff; padding: 4px 14px; display: block; background-color:transparent; }
+#mainmenu ul li ul li.active a,
+#mainmenu ul li ul li a:hover { color: #6399cd; background-color:#EFF4FA; text-decoration:none; }

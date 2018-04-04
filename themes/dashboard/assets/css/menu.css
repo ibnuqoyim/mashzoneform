@@ -1,0 +1,67 @@
+#mainmenu ul { list-style: none; margin: 0; padding: 0; position: relative; height: 30px; }
+
+#mainmenu ul li { position:relative; float: left;  }
+#mainmenu ul li:hover > ul { display: inline-block; }
+#mainmenu ul li a { float: none; display: block; white-space: nowrap; }
+
+#mainmenu ul li ul { display: none; position: absolute; clear:booth; top: 100%; background:blue  repeat-x left top; color: #ffffff; height: auto;}
+#mainmenu ul li ul li {clear:booth; left; background:blue  repeat-x left top; color: #ffffff; }
+#mainmenu ul li ul li a { color: #ffffff; padding: 0; display: block; background-color:transparent; }
+#mainmenu ul li ul li.active a,
+#mainmenu ul li ul li a:hover { color: #6399cd; background-color:#EFF4FA; text-decoration:none; }
+
+*{ 
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+} /* simple CSS Reset */
+
+#mooon ul {
+	list-style:none;
+	background-image:-webkit-linear-gradient(top,#EBEBEB,#D7D7D7);
+	background-color:#EBEBEB;
+	box-shadow:0 1px 3px rgba(0,0,0,.5);
+}
+#mooon ul:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+#mooon ul li{
+	float:left;
+	position:relative;
+}
+
+#mooon ul li a{
+	color:red;
+	display:block;
+	font-size:12px;
+	padding:10px 10px;
+	text-decoration:none;
+}
+
+#mooon ul ul{
+	position:absolute;
+	top:100%;
+	
+	display:none;
+}
+#mooon ul ul ul{
+	position:absolute;
+	left:100%;
+	top:0;
+}	
+#mooon ul ul li{
+	float:none;
+}
+#mooon ul li:hover > ul{
+	display:block;
+}
+#mooon ul li:hover > a, #mooon ul ul li:hover > a  {
+	color :white;
+	background-image:-webkit-linear-gradient(top, #506def,#2041DE);
+	background-color:#506def;
+}
+
+
